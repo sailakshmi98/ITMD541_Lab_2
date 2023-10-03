@@ -22,6 +22,8 @@
 
 /* Flexbox Part 2 */
 
+/* Flexbox Part 2 */
+
 #flex-section2 ul {
   display: flex;
   justify-content: space-between;
@@ -30,8 +32,9 @@
 }
 
 #flex-section2 li {
-  flex-grow: 1; 
-  text-align: center;
+  flex: 1 1 0; 
+  text-align: center; 
+  min-height: 50px; 
 }
 
 #flex-section2 .item1 {
@@ -45,6 +48,9 @@
 #flex-section2 .item3 {
   order: 2;
 }
+
+/* end Flexbox Part 2 */
+
 
 /* end Flexbox Part 2 */
 
