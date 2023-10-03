@@ -22,8 +22,6 @@
 
 /* Flexbox Part 2 */
 
-/* Flexbox Part 2 */
-
 #flex-section2 ul {
   display: flex;
   justify-content: space-between;
@@ -52,29 +50,29 @@
 /* end Flexbox Part 2 */
 
 
-/* end Flexbox Part 2 */
-
-
-
 
 /* Flexbox Part 3 */
+
 #flex-section3 .box {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  position: relative; 
+}
+
+#flex-section3 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #flex-section3 .tags ul {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   padding: 0;
   list-style-type: none;
-  position: absolute; 
-  bottom: 10px; 
-  left: 50%; 
-  transform: translateX(-50%);
+  margin-top: 10px; /* Add some space above the tags */
 }
 
 #flex-section3 .tags li {
