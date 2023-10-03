@@ -1,17 +1,20 @@
 /* Flexbox Part 1 */
 
-/* Flexbox Part 1 */
-
 
 #flex-section1 ul {
-  display: flex; 
-  justify-content: space-between; 
-  padding: 0; 
-  list-style-type: none; 
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 30px; 
 }
 
 #flex-section1 ul li {
+  list-style-type: none;
+  margin-right: 20px;
+}
 
+#flex-section1 ul li:last-child {
+  margin-right: 0; 
 }
 
 /* end Flexbox Part 1 */
