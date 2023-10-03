@@ -149,17 +149,20 @@
 
 
 
-/* CSS Transition Part */
-.link {
-  color: initialColor; 
-  background-color: initialBackgroundColor; 
-  transition: color 0.5s, background-color 0.5s; 
-}
-
-.link:hover {
-  color: hoverColor; 
-  background-color: hoverBackgroundColor; 
-  transition: color 3s, background-color 3s;
-}
-/* End CSS Transition Part */
-
+/* Transition Part */
+  #transition-section .box a {
+	display: inline-block;
+	background-color: #ccc;
+	color: #000;
+	padding: 20px;
+	text-decoration: none;
+	transition: background-color 0.5s, color 0.5s;
+  }
+  
+  #transition-section .box a:hover {
+	background-color: #cc0000;
+	color: #fff;
+	transition: background-color 3s, color 3s;
+  }
+  
+ /* end Transition Part */
