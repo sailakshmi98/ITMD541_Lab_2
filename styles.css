@@ -52,30 +52,26 @@
 
 
 /* Flexbox Part 3 */
+
 #flex-section3 .box {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 400px; 
-  background-color: white; 
+  flex-direction: column; /* Set the main axis to be vertical */
+  align-items: center; /* Center the items on the cross axis */
+  height: 100%;
 }
 
-#flex-section3 .card {
+#flex-section3 .tags {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white; 
-  padding: 20px; 
-  border: 2px solid #ccc; 
+  width: 100%; /* Make the tags container take the full width of the box */
 }
 
 #flex-section3 .tags ul {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
   padding: 0;
   list-style-type: none;
-  margin-top: 10px; 
+  justify-content: center; /* Center the list items on the main axis */
+  width: 100%; /* Make the list take the full width of the tags container */
 }
 
 #flex-section3 .tags li {
@@ -84,9 +80,11 @@
   border-radius: 10px;
 }
 
-
-#flex-section3 .tags li:nth-child(-n+3) { 
-  flex: 1; 
+#flex-section3 .words {
+  display: flex;
+  flex-direction: column; /* Set the main axis to be vertical */
+  gap: 10px; /* Add some space between the words */
+  align-items: center; /* Center the words on the cross axis */
 }
 
 /* end Flexbox Part 3 */
